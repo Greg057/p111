@@ -8,6 +8,11 @@
     "cvUrl": "/p111/user-files/9a9ed8e8-0bc3-4715-b550-f6c4eb0b3862/resume-1758326509599.pdf",
     "custom_links": [
       {
+        "icon": "email",
+        "title": "Email",
+        "url": "jane.doe@email.com"
+      },
+      {
         "icon": "linkedin",
         "title": "LinkedIn",
         "url": "https://linkedin.com/in/janedoe"
