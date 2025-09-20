@@ -1,6 +1,4 @@
-import UserInfo3Static from '@/components/userInfo/static/UserInfo3Static'
-import Skills3Static from '@/components/skills/static/Skills3Static'
-import Projects3Static from '@/components/projects/static/Projects3Static'
+import MinimalProfileStatic from '@/components/userInfo/static/MinimalProfileStatic'
 import CustomSection3Static from '@/components/custom/static/CustomSection3Static'
 import CustomSectionListStatic from '@/components/custom/static/CustomSectionListStatic'
 import CustomSectionTimelineStatic from '@/components/custom/static/CustomSectionTimelineStatic'
@@ -10,7 +8,7 @@ export default function Portfolio() {
   return (
     <main className="min-h-screen bg-background">
       <div className="container mx-auto max-w-4xl px-4 py-8">
-        <UserInfo3Static personal={portfolioData.personal} />
+        <MinimalProfileStatic personal={portfolioData.personal} />
         {portfolioData.workExperience && <CustomSectionTimelineStatic section={{
           section_name: "Work Experience",
           layout_type: "timeline",
@@ -37,8 +35,6 @@ export default function Portfolio() {
             customLinks: edu.custom_links
           }))
         }} />}
-        {portfolioData.projects && <Projects3Static projects={portfolioData.projects} />}
-        {portfolioData.skills && <Skills3Static skills={portfolioData.skills} />}
       </div>
     </main>
   )

@@ -25,9 +25,9 @@
     ]
   },
   "selectedComponents": {
-    "userInfo": "userInfo3",
-    "skills": "skills3",
-    "projects": "projects3",
+    "userInfo": "heroLayout",
+    "skills": "orbitingCircles",
+    "projects": "threeDCard",
     "workExperience": "timeline",
     "education": "list"
   },
