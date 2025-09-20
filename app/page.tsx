@@ -1,4 +1,4 @@
-import UserInfo4Static from '@/components/userInfo/static/UserInfo4Static'
+import UserInfo3Static from '@/components/userInfo/static/UserInfo3Static'
 import Skills3Static from '@/components/skills/static/Skills3Static'
 import Projects3Static from '@/components/projects/static/Projects3Static'
 import CustomSection3Static from '@/components/custom/static/CustomSection3Static'
@@ -10,7 +10,7 @@ export default function Portfolio() {
   return (
     <main className="min-h-screen bg-background">
       <div className="container mx-auto max-w-4xl px-4 py-8">
-        <UserInfo4Static personal={portfolioData.personal} />
+        <UserInfo3Static personal={portfolioData.personal} />
         {portfolioData.workExperience && <CustomSectionTimelineStatic section={{
           section_name: "Work Experience",
           layout_type: "timeline",

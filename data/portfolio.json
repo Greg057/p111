@@ -5,7 +5,7 @@
     "about_me": "Software Engineer at TechWave Solutions specializing in scalable web applications, cloud platforms, and Agile methodologies. Passionate about building user-friendly solutions and continuously learning emerging technologies such as artificial intelligence, machine learning, and cloud-native applications. Experienced in Java, Python, JavaScript, and cloud DevOps tools.",
     "location": "San Francisco, CA",
     "avatarUrl": null,
-    "cvUrl": null,
+    "cvUrl": "/p111/user-files/9a9ed8e8-0bc3-4715-b550-f6c4eb0b3862/resume-1758326509599.pdf",
     "custom_links": [
       {
         "icon": "linkedin",
@@ -20,7 +20,7 @@
     ]
   },
   "selectedComponents": {
-    "userInfo": "userInfo4",
+    "userInfo": "userInfo3",
     "skills": "skills3",
     "projects": "projects3",
     "workExperience": "timeline",
